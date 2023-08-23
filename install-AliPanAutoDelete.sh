@@ -15,7 +15,8 @@ mkdir -p /etc/autodel
 echo "目录创建完成，默认路径/etc/autodel"
 sleep 1
 echo "开始wget脚本文件"
-wget https://raw.githubusercontent.com/Han-GK/AliPanAutoDelete/main/main.py -P /etc/autodel/ &&chmod 777 /etc/autodel/main.py
+wget https://raw.githubusercontent.com/Han-GK/AliPanAutoDelete/main/main.py -P /etc/autodel/
+chmod 777 /etc/autodel/main.py
 sleep 1
 echo "开始安装aligo依赖"
 pip3 install aligo
