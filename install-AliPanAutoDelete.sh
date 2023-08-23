@@ -8,6 +8,7 @@ fi
 sleep 1
 echo "开始安装"
 sleep 1
+rm -rf /etc/autodel
 echo "请输入定时运行的频率（分钟）："
 read interval
 mkdir -p /etc/autodel
